@@ -37,10 +37,10 @@ module.exports = (sequelize, Sequelize) => {
 	    	type: Sequelize.TEXT},
 	    // response_message:{
 	    // 	type: Sequelize.TEXT},
-	    tgl_create:{
-	    	type: Sequelize.DATE},
-	    tgl_update:{
-	    	type: Sequelize.DATE},
+	    // tgl_create:{
+	    // 	type: Sequelize.DATE},
+	    // tgl_update:{
+	    // 	type: Sequelize.DATE},
 	  },{
 	    timestamps: false,
 	    tableName: 'inm_transaksi_detail'
