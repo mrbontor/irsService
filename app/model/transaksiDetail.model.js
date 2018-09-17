@@ -33,10 +33,10 @@ module.exports = (sequelize, Sequelize) => {
 	    // 	type: Sequelize.TEXT},
 	    // print_out:{
 	    // 	type: Sequelize.TEXT},
-	    keterangan:{
+	    // keterangan:{
+	    	// type: Sequelize.TEXT},
+	    response_message:{
 	    	type: Sequelize.TEXT},
-	    // response_message:{
-	    // 	type: Sequelize.TEXT},
 	    // tgl_create:{
 	    // 	type: Sequelize.DATE},
 	    // tgl_update:{
