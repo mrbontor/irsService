@@ -1,6 +1,4 @@
 const dbRedis = require('../config/conf_redis.js');
-// const TransaksiRedis = dbRedis;
-
 
 // exports.hmget = (err, [idtrx,status]) => {
 exports.hmget = async (req, res) => {
