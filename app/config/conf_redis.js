@@ -17,10 +17,11 @@ redisClient.on('error', function (err) {
     console.log('Something went wrong ' + err);
 });
 
-redisClient.hmget(key, "idtrx","status", function(err, [idtrx,status]) {
-	console.log(err)
- 	console.log(idtrx)
- 	console.log(status)
-})
+//test get redis
+// redisClient.hmget(key, "idtrx","status", function(err, [idtrx,status]) {
+// 	console.log(err)
+//  	console.log(idtrx)
+//  	console.log(status)
+// })
 
 module.exports = redisClient;
