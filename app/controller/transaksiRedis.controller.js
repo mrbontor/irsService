@@ -15,10 +15,3 @@ exports.hmget = async (req, res) => {
       console.log(status)
   });
 };
-
-
-// redisClient.hmget("nodejsredis", "idtrx","status", function(err, [idtrx,status]) {
-//   console.log(err)
-//   console.log(idtrx)
-//   console.log(status)
-// })
