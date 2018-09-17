@@ -9,6 +9,7 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.18.0",
+    "bluebird": "^3.5.2",
     "body-parser": "^1.18.3",
     "cache-manager": "^2.9.0",
     "cache-manager-redis-store": "^1.5.0",

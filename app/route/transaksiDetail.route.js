@@ -1,7 +1,8 @@
 module.exports = function(app) {
  
     const transaksiDetail = require('../controller/transaksiDetail.controller.js');
- 	// const transaksiRedis = require('../controller/transaksiRedis.controller.js')
+ 	const transaksiRedis = require('../controller/transaksiRedis.controller.js');
+    
     app.post('/api/transaksiDetail', transaksiDetail.create);
  
     app.get('/api/transaksiDetail', transaksiDetail.findAll);
@@ -12,6 +13,6 @@ module.exports = function(app) {
  
     app.delete('/api/transaksiDetail/:transaksi_id', transaksiDetail.delete);
 
-    // app.get('/api/transaksiRedis/', transaksiRedis.redisClient);
+    app.get('/api/transaksiRedis/', transaksiRedis.hmget);
 
 }
