@@ -3,7 +3,6 @@ var app = express();
 var bodyParser = require('body-parser');
 var request = require('superagent');
 var redis = require('redis');
-// var redisClient = redis.createClient({host : '10.16.1.141', port : 6379});
 
 app.use(bodyParser.json())
 

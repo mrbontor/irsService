@@ -14,5 +14,6 @@ module.exports = function(app) {
     app.delete('/api/transaksiDetail/:transaksi_id', transaksiDetail.delete);
 
     app.get('/api/transaksiRedis/', transaksiRedis.hmget);
-     app.get('/api/transaksiRedis/:idtrx', transaksiRedis.findById);
+    app.get('/api/transaksiRedis/:idtrx', transaksiRedis.findById);
+    // app.post('/api/transaksiRedis/', transaksiRedis.create);
 }
